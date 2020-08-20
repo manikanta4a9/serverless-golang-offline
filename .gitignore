@@ -6,3 +6,4 @@ package-lock.json
 .vscode/**
 npm-debug.log
 .DS_Store
+bin/*

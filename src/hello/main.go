@@ -13,7 +13,6 @@ import (
 type Response events.APIGatewayProxyResponse
 
 func Handler(ctx context.Context) (Response, error) {
-	fmt.Println(">>>>")
 	var buf bytes.Buffer
 
 	body, err := json.Marshal(map[string]interface{}{
