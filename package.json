@@ -1,0 +1,14 @@
+{
+	"name": "docker-golang",
+	"description": "",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node ./node_modules/.bin/serverless offline start --useDocker",
+		"watch": "nodemon --watch src -e go,js --exec make build"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3",
+		"serverless": "^1.70.0",
+		"serverless-offline": "^6.1.5"
+	}
+}
